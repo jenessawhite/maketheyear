@@ -1,0 +1,63 @@
+html body {
+  font-family: 'Karla', Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  border: 1px solid red;
+}
+article, footer {
+  color: black;
+  margin: auto;
+  width: 50%;
+}
+strong {
+  font-weight: bold;
+
+}
+.header-main {
+  /*background-image: url(/Users/jenessawhite/projects/maketheyear/assets/pattern-dark.png);*/
+  background: url(/Users/jenessawhite/projects/maketheyear/assets/pattern-dark.png) top left #141414;
+      padding: 50px 0 80px 0;
+      color: #FFFFFF;
+}
+div>header {
+  margin: auto;
+  width: 50%;
+  color: white;
+}
+.header-large-text {
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+input {
+  height:
+}
+
+.photo-grid {
+  display: inline-block;
+  float: left;
+}
+.instructors {
+  display: inline-block;
+  float: left;
+}
+.person {
+  display: inline-block;
+  float: left;
+  height: auto;
+}
+.person_text {
+  display: inline-block;
+  float: left;
+}
+
+@media screen and (max-width: 619px){
+  body {
+
+  }
+}
