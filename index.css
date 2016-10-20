@@ -4,24 +4,23 @@ html body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
-* {
+/** {
   border: 1px solid red;
-}
-article, footer {
+}*/
+article {
   color: black;
   margin: auto;
   width: 50%;
 }
-strong {
-  font-weight: bold;
 
-}
+
 .header-main {
   /*background-image: url(/Users/jenessawhite/projects/maketheyear/assets/pattern-dark.png);*/
   background: url(/Users/jenessawhite/projects/maketheyear/assets/pattern-dark.png) top left #141414;
-      padding: 50px 0 80px 0;
-      color: #FFFFFF;
+  padding: 50px 0 80px 0;
+  color: #FFFFFF;
 }
 div>header {
   margin: auto;
@@ -29,35 +28,134 @@ div>header {
   color: white;
 }
 .header-large-text {
-  font-size: 46px;
+  font-size: 48px;
   font-weight: bold;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  line-height: normal;
+}
+.header-small-text {
+  margin-bottom: 40px;
+}
+form {
+  font-size: 20px;
+  font-family: 'Karla';
+  vertical-align: top;
+  margin-top: 20px;
 }
 
-input {
-  height:
+.invite {
+  height: 60px;
+  font-size: 22px;
+  width: 60%;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+}
+
+button {
+  font-size: 22px;
+  color: white;
+  width: 190px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: #ae5cc8;
+
+}
+
+button:hover {
+  font-size: 22px;
+  color: white;
+  width: 190px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: #903fa9;
+}
+
+.subhead-row {
+  font-weight: bolder;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .photo-grid {
   display: inline-block;
-  float: left;
 }
-.instructors {
-  display: inline-block;
-  float: left;
-}
+
 .person {
   display: inline-block;
-  float: left;
-  height: auto;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  border-radius: 3px;
+  margin-bottom: 80px;
+  vertical-align: top;
 }
+
+.name {
+  font-weight: bold;
+  margin-top: 11px;
+  margin-bottom: 4px;
+}
+
 .person_text {
-  display: inline-block;
-  float: left;
+  font-size: 15px;
+  color: #99999F;
 }
 
-@media screen and (max-width: 619px){
-  body {
+a:link, a:visited, a:hover, a:active > .person_text {
+  font-size: 15px;
+  color: #99999F;
+  font-style: normal;
+  text-decoration: none;
+}
 
-  }
+.p {
+  margin: 30px 0px 30px 0;
+  font-weight: lighter;
+}
+#text-link {
+  font-size: 20px;
+  color: #99999F;
+  font-style: normal;
+  text-decoration: underline;
+}
+#text-link:hover {
+  font-size: 20px;
+  color: #66666F;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.small {
+  font-size: .8em;
+  color: #99999F;
+}
+
+.companies {
+  margin-top: 60px;
+}
+
+.logo {
+  display: inline-block;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 40px;
+  vertical-align: middle;
+}
+
+footer {
+  color: #99999F;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-text > a:hover {
+  color: #66666F;
+  text-decoration: none;
 }
